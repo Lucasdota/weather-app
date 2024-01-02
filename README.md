@@ -1,6 +1,6 @@
-# React + Vite
+# Weather App Fetch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A minimalist project to showcase how to perform async actions, such as fetching data, when using redux.
 
 Currently, two official plugins are available:
 
