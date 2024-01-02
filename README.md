@@ -1,8 +1,10 @@
-# Weather App Fetch
+# Weather App
 
-## A minimalist project to showcase how to perform async actions, such as fetching data, when using redux.
+## A minimalist project to showcase how to perform async actions in redux.
 
-Currently, two official plugins are available:
+Main features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Data fetching
+- Visual feedback when the fetch request is pending/returns status 404(not found)
+
+Link: [click here](https://weather-app-one-wheat-48.vercel.app/)
