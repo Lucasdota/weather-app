@@ -1,6 +1,6 @@
-# Weather App
+# Weather App with Redux
 
-## A minimalist project to showcase how to perform async actions in redux.
+## A minimalist redux project with vite to showcase how to perform async actions in redux.
 
 Main features:
 
