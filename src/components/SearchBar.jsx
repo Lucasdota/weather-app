@@ -6,7 +6,7 @@ const SearchBar = () => {
   const dispatch = useDispatch();
 
   //initial render
-	dispatch(getCityData({ city: "São Paulo" }));
+	dispatch(getCityData({ city: "Vancouver" }));
 
   function onSubmit(e) {
 		const searchInput = document.getElementById("searchInput");
