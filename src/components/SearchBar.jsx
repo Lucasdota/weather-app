@@ -9,9 +9,10 @@ const SearchBar = () => {
 	dispatch(getCityData({ city: "São Paulo" }));
 
   function onSubmit(e) {
-		const searchInput = document.getElementById("searchInput")?.value;
+		const searchInput = document.getElementById("searchInput");
     e.preventDefault();
-    dispatch(getCityData({city: searchInput}))
+    dispatch(getCityData({ city: searchInput?.value }));
+		searchInput.value = "";
   }
 
   return (
